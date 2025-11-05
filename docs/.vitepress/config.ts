@@ -27,13 +27,6 @@ export default defineConfig({
 
   // サイドバー設定
   themeConfig: {
-    nav: [
-      { text: 'ホーム', link: '/' },
-      { text: '会社紹介', link: '/about' },
-      { text: '募集要項', link: '/jobs' },
-      { text: 'FAQ', link: '/faq' }
-    ],
-
     sidebar: [
       {
         text: 'ホーム',
