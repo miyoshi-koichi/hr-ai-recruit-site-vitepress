@@ -36,25 +36,37 @@ export default defineConfig({
 
     sidebar: [
       {
-        text: 'カヤックについて',
+        text: 'ホーム',
+        items: [
+          { text: 'トップページ', link: '/' }
+        ]
+      },
+      {
+        text: '組織紹介',
         items: [
           { text: '会社概要', link: '/about' },
           { text: '企業文化', link: '/culture' },
-          { text: '事業内容', link: '/business' }
+          { text: 'オフィス環境', link: '/office' }
+        ]
+      },
+      {
+        text: '事業紹介',
+        items: [
+          { text: '事業概要', link: '/business' },
+          { text: '面白プロデュース事業', link: '/business-produce' },
+          { text: 'ゲーム事業', link: '/business-game' },
+          { text: 'ゲームコミュニティ事業', link: '/business-community' },
+          { text: '地域資本主義事業', link: '/business-regional' }
         ]
       },
       {
         text: '採用情報',
         items: [
-          { text: '募集職種', link: '/jobs' },
+          { text: '募集要項', link: '/jobs' },
           { text: '選考フロー', link: '/process' },
           { text: 'FAQ', link: '/faq' }
         ]
       }
-    ],
-
-    socialLinks: [
-      { icon: 'github', link: 'https://github.com/kayac' }
     ],
 
     // フッター
