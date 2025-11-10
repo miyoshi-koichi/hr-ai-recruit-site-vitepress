@@ -2,7 +2,7 @@ import { defineConfig } from 'vitepress'
 
 // https://vitepress.vuejs.org/config/app-configs
 export default defineConfig({
-  title: '採用サイト｜面白法人カヤック',
+  title: '面白法人カヤック 採用サイト',
   description: '面白法人カヤックは、「つくる人を増やす」を経営理念に掲げ、古都鎌倉から、ゲーム制作・広告企画・地域通貨、関係人口促進など、固定観念にとらわれない発想力・企画力で面白いサービスやコンテンツを提供するクリエイター集団です。',
 
   // GitHub Pagesのベースパス（リポジトリ名に合わせて変更してください）
@@ -25,7 +25,7 @@ export default defineConfig({
     // OGP設定
     ['meta', { property: 'og:type', content: 'website' }],
     ['meta', { property: 'og:site_name', content: 'Kayac Recruit' }],
-    ['meta', { property: 'og:title', content: '採用サイト｜面白法人カヤック' }],
+    ['meta', { property: 'og:title', content: '面白法人カヤック 採用サイト' }],
     ['meta', { property: 'og:description', content: '面白法人カヤックは、「つくる人を増やす」を経営理念に掲げ、古都鎌倉から、ゲーム制作・広告企画・地域通貨、関係人口促進など、固定観念にとらわれない発想力・企画力で面白いサービスやコンテンツを提供するクリエイター集団です。' }],
     ['meta', { property: 'og:url', content: 'https://recruit.kayac.com/' }],
     ['meta', { property: 'og:image', content: 'https://recruit.kayac.com/images/ogp.jpg' }],
@@ -34,7 +34,7 @@ export default defineConfig({
 
     // Twitter Card設定
     ['meta', { name: 'twitter:card', content: 'summary_large_image' }],
-    ['meta', { name: 'twitter:title', content: '採用サイト｜面白法人カヤック' }],
+    ['meta', { name: 'twitter:title', content: '面白法人カヤック 採用サイト' }],
     ['meta', { name: 'twitter:description', content: '面白法人カヤックは、「つくる人を増やす」を経営理念に掲げ、古都鎌倉から、ゲーム制作・広告企画・地域通貨、関係人口促進など、固定観念にとらわれない発想力・企画力で面白いサービスやコンテンツを提供するクリエイター集団です。' }],
     ['meta', { name: 'twitter:image', content: 'https://recruit.kayac.com/images/ogp.jpg' }],
 
@@ -51,14 +51,14 @@ export default defineConfig({
       /* Difyチャットボットのスタイル調整 */
       #dify-chatbot-bubble-button {
         background-color: #1C64F2 !important;
-        bottom: 5rem !important;
+        bottom: 1rem !important;
         right: 1rem !important;
       }
       #dify-chatbot-bubble-window {
         width: 24rem !important;
         height: 40rem !important;
         position: fixed !important;
-        bottom: 5rem !important;
+        bottom: 1rem !important;
         right: 1rem !important;
       }
       /* ダークモードボタンを右上に配置 */
