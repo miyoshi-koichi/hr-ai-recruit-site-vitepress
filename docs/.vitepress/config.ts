@@ -46,7 +46,7 @@ export default defineConfig({
       /* ロゴサイズ調整 */
       .VPNavBarTitle .logo {
         width: auto !important;
-        height: 36px !important;
+        height: 47px !important;
       }
 
       /* Difyチャットボットのスタイル調整 */
