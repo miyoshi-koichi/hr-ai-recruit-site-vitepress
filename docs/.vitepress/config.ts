@@ -7,7 +7,7 @@ export default defineConfig({
   description: '面白法人カヤックは、「つくる人を増やす」を経営理念に掲げ、古都鎌倉から、ゲーム制作・広告企画・地域通貨、関係人口促進など、固定観念にとらわれない発想力・企画力で面白いサービスやコンテンツを提供するクリエイター集団です。',
 
   // GitHub Pagesのベースパス（リポジトリ名に合わせて変更してください）
-  base: '/kayac-recruit-site/',
+  base: '/hr-ai-recruit-site-vitepress/',
 
   // クリーンなURL（.html拡張子を隠す）
   cleanUrls: 'without-subfolders',
